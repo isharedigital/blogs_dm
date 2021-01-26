@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+:root {
+    --black: #000;
+    --white: #fff;
+    --primary: rgb(240 185 10);
+    --linear-gradient: linear-gradient(97deg, rgb(15, 143, 98) 25%, rgb(43, 180, 126) 50%, rgb(15, 143, 98) 75%, rgb(43, 180, 126) 99.32%);
+    --box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px, rgba(0, 0, 0, 0.04) 0px 3px 6px, rgba(0, 0, 0, 0.04) 0px 1px 2px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
