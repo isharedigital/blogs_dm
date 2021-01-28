@@ -22,6 +22,7 @@
                 </g>
             </svg>
         </div>
+        <!-- Menu mobile -->
         <div class="header__nav-mobile hidden-pc">
             <div class="header__nav-mobile-search">
                 <svg class="svg_img" viewBox="0 0 22 22" fill="#fff" xmlns="http://www.w3.org/2000/svg">
@@ -30,23 +31,114 @@
                     </path>
                 </svg>
             </div>
+            <!-- icon menu mobile -->
             <div class="header__nav-mobile-menu-icon">
-                <svg class="svg_img" viewBox="0 0 24 24" role="button" aria-label="Open mobile menu" fill="#fff" xmlns="http://www.w3.org/2000/svg"><path d="M19.5 4.5H4.5V6.5H19.5V4.5Z"></path><path d="M19.5 17.5H4.5V19.5H19.5V17.5Z"></path><path d="M19.5 11H4.5V13H19.5V11Z"></path></svg>
+                <label for="menu-mobile-status"><svg class="svg_img" viewBox="0 0 24 24" role="button" aria-label="Open mobile menu" fill="#fff" xmlns="http://www.w3.org/2000/svg"><path d="M19.5 4.5H4.5V6.5H19.5V4.5Z"></path><path d="M19.5 17.5H4.5V19.5H19.5V17.5Z"></path><path d="M19.5 11H4.5V13H19.5V11Z"></path></svg></label>
+                <input type="checkbox" class="tongue-nav-mobile" id="menu-mobile-status" hidden="true">
+                <div class="header__nav-mobile-menu">
+                    <div class="header__nav-mobile-menu-top">
+                        <!-- Logo -->
+                        <label class="header__nav-mobile-menu-top-logo" for="menu-mobile-status">
+                            <svg class="svg_img" viewBox="0 0 127 32" fill="rgb(240 185 10)" xmlns="http://www.w3.org/2000/svg"><g><path d="M45.721 15.9873H39.7518V3.58379H45.5924C48.1653 3.58379 49.7348 4.85465 49.7348 6.78634V6.81175C49.7348 8.20969 48.9886 8.99761 48.0881 9.48054C49.5289 10.0397 50.4295 10.8531 50.4295 12.5306V12.556C50.4295 14.8689 48.577 15.9873 45.721 15.9873ZM46.9818 7.26926C46.9818 6.45592 46.3386 5.99841 45.1807 5.99841H42.4534V8.61636H45.0006C46.2099 8.61636 46.9818 8.23511 46.9818 7.29468V7.26926ZM47.6765 12.2256C47.6765 11.3868 47.0589 10.8785 45.6438 10.8785H42.4534V13.5981H45.7468C46.956 13.5981 47.7022 13.166 47.7022 12.251V12.2256H47.6765ZM53.4656 15.9873V3.58379H56.2186V15.9873H53.4656ZM68.7231 15.9873L62.6509 8.10802V15.9873H59.9236V3.58379H62.4708L68.3628 11.2343V3.58379H71.0902V15.9873H68.7231ZM83.4917 15.9873L82.3339 13.2168H77.0336L75.8758 15.9873H73.0713L78.4487 3.48213H80.9959L86.3734 15.9873H83.4917ZM79.6837 6.78634L78.0113 10.8022H81.3561L79.6837 6.78634ZM97.2054 15.9873L91.1333 8.10802V15.9873H88.406V3.58379H90.9532L96.8452 11.2343V3.58379H99.5725V15.9873H97.2054ZM108.655 16.216C104.95 16.216 102.223 13.3948 102.223 9.83638V9.81096C102.223 6.278 104.924 3.40588 108.784 3.40588C111.151 3.40588 112.566 4.1938 113.724 5.31215L111.974 7.32009C110.996 6.45591 110.019 5.92216 108.758 5.92216C106.648 5.92216 105.104 7.65052 105.104 9.78555V9.81096C105.104 11.946 106.597 13.6998 108.758 13.6998C110.199 13.6998 111.074 13.1406 112.051 12.251L113.801 14.0048C112.514 15.3519 111.099 16.216 108.655 16.216ZM116.039 15.9873V3.58379H125.508V6.02383H118.792V8.54011H124.71V10.9801H118.792V13.5727H125.611V16.0127H116.039V15.9873ZM66.6647 28.3908H65.018L64.1175 26.2812H59.9236L58.9974 28.3908H57.4022L61.313 19.5457H62.7538L66.6647 28.3908ZM62.0077 21.4011L60.4897 24.9087H63.5514L62.0077 21.4011ZM72.1708 28.5433C69.5721 28.5433 67.6424 26.5608 67.6424 24.0191C67.6424 21.5028 69.5464 19.4694 72.2222 19.4694C73.8689 19.4694 74.8466 20.0286 75.6957 20.8419L74.6923 21.9857C73.9718 21.3249 73.2257 20.8928 72.1965 20.8928C70.4984 20.8928 69.2633 22.2653 69.2633 23.9936C69.2633 25.722 70.4984 27.1199 72.1965 27.1199C73.2772 27.1199 73.9976 26.6878 74.7437 25.9762L75.7471 26.9674C74.8723 27.9333 73.8432 28.5433 72.1708 28.5433ZM86.3734 28.3908H84.7267L83.8262 26.2812H79.6323L78.706 28.3908H77.1108L81.0216 19.5457H82.4625L86.3734 28.3908ZM81.7164 21.4011L80.1983 24.9087H83.2601L81.7164 21.4011ZM91.6222 28.3908H88.3031V19.5965H91.6222C94.4267 19.5965 96.3563 21.5028 96.3563 23.9682C96.3306 26.4845 94.4009 28.3908 91.6222 28.3908ZM91.6222 21.0199H89.8726V26.9929H91.6222C93.5004 26.9929 94.7097 25.7474 94.7097 24.0191C94.7097 22.2907 93.4747 21.0199 91.6222 21.0199ZM105.284 20.9944H100.267V23.282H104.718V24.6545H100.267V27.0183H105.362V28.3908H98.6977V19.5965H105.284V20.9944ZM112.103 26.2303H112.051L109.272 22.1128V28.3908H107.729V19.5965H109.401L112.103 23.7395L114.804 19.5965H116.477V28.3908H114.907V22.0874L112.103 26.2303ZM123.424 28.3908H121.854V24.9341L118.329 19.6219H120.182L122.677 23.5107L125.199 19.6219H127L123.475 24.9087V28.3908H123.424ZM54.2889 23.282H39.7518V24.7562H54.2889V23.282ZM3.65355 12.3781L0 15.9873L3.65355 19.5965L7.30711 15.9873L3.65355 12.3781ZM16.2095 7.21843L22.4874 13.4202L26.141 9.81096L16.2095 0L6.27793 9.81096L9.93155 13.4202L16.2095 7.21843ZM28.7654 12.3781L25.1119 15.9873L28.7654 19.5965L32.419 15.9873L28.7654 12.3781ZM16.2095 24.7816L9.93155 18.5798L6.27793 22.189L16.2095 32L26.141 22.189L22.4874 18.5798L16.2095 24.7816ZM16.2095 19.6219L19.863 16.0127L16.2095 12.4035L12.5559 16.0127L16.2095 19.6219Z"></path></g></svg>
+                        </label>
+                        <!-- Close menu -->
+                        <label class="header__nav-mobile-menu-top--close" for="menu-mobile-status">
+                            <svg class="svg_img" viewBox="0 0 24 24" role="button" aria-label="Close mobile menu" fill="#fff" xmlns="http://www.w3.org/2000/svg" ><path d="M13.4 12L20 18.6L18.6 20L12 13.4L5.4 20L4 18.6L10.6 12L4 5.4L5.4 4L12 10.6L18.6 4L20 5.4L13.4 12Z"></path></svg>
+                        </label>
+                    </div>
+                    <div class="header__nav-mobile-menu-main">
+                        <div class="header__nav-mobile-menu-main-item">
+                            <div>Topics</div>
+                            <svg class="svg_img" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M8.59003 16.59L13.17 12L8.59003 7.41L10 6L16 12L10 18L8.59003 16.59Z" fill="currentColor"></path></svg>
+                        </div>
+                        <div class="header__nav-mobile-menu-main-item">
+                            <div>Discovery</div>
+                            <svg class="svg_img" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M8.59003 16.59L13.17 12L8.59003 7.41L10 6L16 12L10 18L8.59003 16.59Z" fill="currentColor"></path></svg>
+                        </div>
+                        <div class="header__nav-mobile-menu-main-item">
+                            <div>Product</div>
+                            <svg class="svg_img" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M8.59003 16.59L13.17 12L8.59003 7.41L10 6L16 12L10 18L8.59003 16.59Z" fill="currentColor"></path></svg>
+                        </div>
+                    </div>
+                </div>
+                <label class="overlay-menu-mobile" for="menu-mobile-status"></label>
             </div>
+            
         </div>
         <div class="header__nav hidden-mobiel">
             <!-- Menu main -->
             <div class="header__nav-menu">
-                <div>
+                <div class="mega-menu">
                     <!--icon-->
-                    <svg class="svg_img" viewBox="0 0 24 24" role="button" aria-label="" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                        d="M14.048 9.952H9.952V14.048H14.048V9.952ZM14.048 4H9.952V8.085H14.048V4ZM14.048 15.915H9.952V20H14.048V15.915ZM8.085 9.952H4V14.048H8.085V9.952ZM20 4H15.915V8.085H20V4ZM20 15.915H15.915V20H20V15.915ZM8.085 15.915H4V20H8.085V15.915ZM20 9.952H15.915V14.048H20V9.952ZM8.085 4H4V8.085H8.085V4Z" fill="currentColor">
-                    </path>
-                </svg>
+                    <svg class="svg_img" viewBox="0 0 24 24" role="button" aria-label="" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M14.048 9.952H9.952V14.048H14.048V9.952ZM14.048 4H9.952V8.085H14.048V4ZM14.048 15.915H9.952V20H14.048V15.915ZM8.085 9.952H4V14.048H8.085V9.952ZM20 4H15.915V8.085H20V4ZM20 15.915H15.915V20H20V15.915ZM8.085 15.915H4V20H8.085V15.915ZM20 9.952H15.915V14.048H20V9.952ZM8.085 4H4V8.085H8.085V4Z" fill="currentColor"></path></svg>
+                    <!-- Mega menu -->
+                    <div class="mega-menu-dropdown">
+                        <div class="dropdown-block">
+                            <div class="mega-menu-element">
+                                <svg class="svg_img" viewBox="0 0 20 20" fill="#f0b90a" xmlns="http://www.w3.org/2000/svg"><g><polygon points="10 1.378 4.707 6.673 6.654 8.621 10 5.273 13.348 8.623 15.297 6.675 10 1.378"></polygon><rect x="1.953" y="8.618" width="2.755" height="2.754" transform="translate(-6.09 5.278) rotate(-44.975)"></rect><polygon points="10 14.717 6.653 11.371 4.704 13.315 4.706 13.317 10 18.612 15.296 13.318 15.296 13.316 13.347 11.369 10 14.717"></polygon><rect x="15.293" y="8.618" width="2.754" height="2.755" transform="translate(-2.183 14.723) rotate(-45.025)"></rect><polygon points="11.975 9.995 11.977 9.995 10 8.018 8.54 9.48 8.373 9.647 8.027 9.995 8.024 9.997 8.027 10 10 11.973 11.977 9.997 11.977 9.995 11.975 9.995"></polygon></g></svg>
+                                <div class="mega-menu-element__info">
+                                    <div class="title">Titles</div>
+                                    <div class="description">Description</div>
+                                </div>
+                            </div>
+                            <div class="mega-menu-element">
+                                <svg class="svg_img" viewBox="0 0 20 20" fill="#f0b90a" xmlns="http://www.w3.org/2000/svg"><g><polygon points="10 1.378 4.707 6.673 6.654 8.621 10 5.273 13.348 8.623 15.297 6.675 10 1.378"></polygon><rect x="1.953" y="8.618" width="2.755" height="2.754" transform="translate(-6.09 5.278) rotate(-44.975)"></rect><polygon points="10 14.717 6.653 11.371 4.704 13.315 4.706 13.317 10 18.612 15.296 13.318 15.296 13.316 13.347 11.369 10 14.717"></polygon><rect x="15.293" y="8.618" width="2.754" height="2.755" transform="translate(-2.183 14.723) rotate(-45.025)"></rect><polygon points="11.975 9.995 11.977 9.995 10 8.018 8.54 9.48 8.373 9.647 8.027 9.995 8.024 9.997 8.027 10 10 11.973 11.977 9.997 11.977 9.995 11.975 9.995"></polygon></g></svg>
+                                <div class="mega-menu-element__info">
+                                    <div class="title">Titles</div>
+                                    <div class="description">Description</div>
+                                </div>
+                            </div>
+                            <div class="mega-menu-element">
+                                <svg class="svg_img" viewBox="0 0 20 20" fill="#f0b90a" xmlns="http://www.w3.org/2000/svg"><g><polygon points="10 1.378 4.707 6.673 6.654 8.621 10 5.273 13.348 8.623 15.297 6.675 10 1.378"></polygon><rect x="1.953" y="8.618" width="2.755" height="2.754" transform="translate(-6.09 5.278) rotate(-44.975)"></rect><polygon points="10 14.717 6.653 11.371 4.704 13.315 4.706 13.317 10 18.612 15.296 13.318 15.296 13.316 13.347 11.369 10 14.717"></polygon><rect x="15.293" y="8.618" width="2.754" height="2.755" transform="translate(-2.183 14.723) rotate(-45.025)"></rect><polygon points="11.975 9.995 11.977 9.995 10 8.018 8.54 9.48 8.373 9.647 8.027 9.995 8.024 9.997 8.027 10 10 11.973 11.977 9.997 11.977 9.995 11.975 9.995"></polygon></g></svg>
+                                <div class="mega-menu-element__info">
+                                    <div class="title">Titles</div>
+                                    <div class="description">Description</div>
+                                </div>
+                            </div>
+                            <div class="mega-menu-element">
+                                <svg class="svg_img" viewBox="0 0 20 20" fill="#f0b90a" xmlns="http://www.w3.org/2000/svg"><g><polygon points="10 1.378 4.707 6.673 6.654 8.621 10 5.273 13.348 8.623 15.297 6.675 10 1.378"></polygon><rect x="1.953" y="8.618" width="2.755" height="2.754" transform="translate(-6.09 5.278) rotate(-44.975)"></rect><polygon points="10 14.717 6.653 11.371 4.704 13.315 4.706 13.317 10 18.612 15.296 13.318 15.296 13.316 13.347 11.369 10 14.717"></polygon><rect x="15.293" y="8.618" width="2.754" height="2.755" transform="translate(-2.183 14.723) rotate(-45.025)"></rect><polygon points="11.975 9.995 11.977 9.995 10 8.018 8.54 9.48 8.373 9.647 8.027 9.995 8.024 9.997 8.027 10 10 11.973 11.977 9.997 11.977 9.995 11.975 9.995"></polygon></g></svg>
+                                <div class="mega-menu-element__info">
+                                    <div class="title">Titles</div>
+                                    <div class="description">Description</div>
+                                </div>
+                            </div>
+                            <div class="mega-menu-element">
+                                <svg class="svg_img" viewBox="0 0 20 20" fill="#f0b90a" xmlns="http://www.w3.org/2000/svg"><g><polygon points="10 1.378 4.707 6.673 6.654 8.621 10 5.273 13.348 8.623 15.297 6.675 10 1.378"></polygon><rect x="1.953" y="8.618" width="2.755" height="2.754" transform="translate(-6.09 5.278) rotate(-44.975)"></rect><polygon points="10 14.717 6.653 11.371 4.704 13.315 4.706 13.317 10 18.612 15.296 13.318 15.296 13.316 13.347 11.369 10 14.717"></polygon><rect x="15.293" y="8.618" width="2.754" height="2.755" transform="translate(-2.183 14.723) rotate(-45.025)"></rect><polygon points="11.975 9.995 11.977 9.995 10 8.018 8.54 9.48 8.373 9.647 8.027 9.995 8.024 9.997 8.027 10 10 11.973 11.977 9.997 11.977 9.995 11.975 9.995"></polygon></g></svg>
+                                <div class="mega-menu-element__info">
+                                    <div class="title">Titles</div>
+                                    <div class="description">Description</div>
+                                </div>
+                            </div>
+                            <div class="mega-menu-element">
+                                <svg class="svg_img" viewBox="0 0 20 20" fill="#f0b90a" xmlns="http://www.w3.org/2000/svg"><g><polygon points="10 1.378 4.707 6.673 6.654 8.621 10 5.273 13.348 8.623 15.297 6.675 10 1.378"></polygon><rect x="1.953" y="8.618" width="2.755" height="2.754" transform="translate(-6.09 5.278) rotate(-44.975)"></rect><polygon points="10 14.717 6.653 11.371 4.704 13.315 4.706 13.317 10 18.612 15.296 13.318 15.296 13.316 13.347 11.369 10 14.717"></polygon><rect x="15.293" y="8.618" width="2.754" height="2.755" transform="translate(-2.183 14.723) rotate(-45.025)"></rect><polygon points="11.975 9.995 11.977 9.995 10 8.018 8.54 9.48 8.373 9.647 8.027 9.995 8.024 9.997 8.027 10 10 11.973 11.977 9.997 11.977 9.995 11.975 9.995"></polygon></g></svg>
+                                <div class="mega-menu-element__info">
+                                    <div class="title">Titles</div>
+                                    <div class="description">Description</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="">Start here</div>
-                <div class="">Topics</div>
+                <div class="btn btn-menu-green">Start here</div>
+                <div class="header__nav-menu-topic">Topics
+                    <div class="subtopic">
+                        <div class="subtopic-child">
+                            <a href="#" class="subtopic-child-item">binance</a>
+                            <a href="#" class="subtopic-child-item">bitcoin</a>
+                            <a href="#" class="subtopic-child-item">blockchain</a>
+                            <a href="#" class="subtopic-child-item">cryptography</a>
+                            <a href="#" class="subtopic-child-item">ecosystem</a>
+                            <a href="#" class="subtopic-child-item">binance</a>
+                            <a href="#" class="subtopic-child-item">binance</a>
+                            <a href="#" class="subtopic-child-item">binance</a>
+                            <a href="#" class="subtopic-child-item">binance</a>
+                            <a href="#" class="subtopic-child-item">binance</a>
+                        </div>  
+                        <button class="btn btn-see-all">
+                            <a href="#">See all</a>
+                        </button>                          
+                    </div>
+                </div>
                 <div class="">Discover</div>
             </div>
             <div class="header__nav-social">
